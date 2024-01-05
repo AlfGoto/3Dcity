@@ -105,9 +105,10 @@ body {
     }
     .front, .back {
         position: absolute;
-        height: 7vh;
-        width: 14vh;
+        height: 13vh;
+        width: 26vh;
         background: url('img/Toit.png');
+        background-size: cover;
         /* background-color: transparent;
         border-top: solid 14vh transparent;
         border-bottom: solid rgb(218, 86, 63) 14vh;
@@ -115,10 +116,10 @@ body {
         border-right: solid 14vh transparent; */
     }
     .front {
-        transform: rotateY(90deg) translateX(-8.5vh) translateY(-8vh) translateZ(8vh);
+        transform: rotateY(90deg) translateX(-8.5vh) translateY(6vh) translateZ(9vh);
     }
     .back {
-        transform: rotateY(90deg) translateX(-8.5vh) translateY(-8vh) translateZ(-11vh);
+        transform: rotateY(90deg) translateX(-8.5vh) translateY(6vh) translateZ(-11vh);
     }
 }
 
